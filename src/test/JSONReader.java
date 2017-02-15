@@ -12,7 +12,7 @@ import org.json.JSONML;
 import org.json.JSONObject;
 
 
-public class IdiFrame {  
+public class JSONReader{  
 	
 	
 	
@@ -32,9 +32,7 @@ public class IdiFrame {
 
 	public static void main(String[] args) {
 		String jMap = "{\"course\":{\"code\":\"4100\",\"term\",\"spring\"},\"person\":[{\"name\":\"Hallvard\"},{\"age\":\"23\"}]}";
-		IdiFrame f = new IdiFrame();
+		JSONReader f = new JSONReader();
 		f.toMap(jMap);
-		
-		
 	}
 }
